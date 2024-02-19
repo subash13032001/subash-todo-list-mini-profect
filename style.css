@@ -1,49 +1,55 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
-#outer-box{
-    background: linear-gradient(to right,#3deb3d,#30b6eb);
-    width: 100%;
-    height: 100vh;
+
+#outer-box {
+    background: linear-gradient(to right, #3deb3d, #30b6eb);
+    min-width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
-#inner-box
-{
 
-    background-color:white;
-    width: 300px;
-    min-height: 50%;
+#inner-box {
+
+    background-color: white;
+    min-width: 25%;
+    min-height: 70%;
     padding: 20px 30px;
     border-radius: 10px;
 }
-#inner-box h1{
+
+#inner-box h1 {
     text-align: center;
     font-size: 50px;
     margin-bottom: 10px;
 }
 
-#box1{
+#box1 {
     display: flex;
     justify-content: center;
 
 }
-#inputbox{
-    width: 200px;
-    height: 25px;
+
+#inputbox {
+    max-width: 70%;
+    max-height: 25%;
     border: 1px solid blue;
     border-radius: 3px;
 
-    
+
 }
-#inputbox:focus{
+
+#inputbox:focus {
     outline: none;
 }
-#btn{
+
+#btn {
     background-color: blue;
     color: white;
     margin-left: 5px;
@@ -52,22 +58,25 @@
     border-radius: 3px;
     padding: 7px 15px;
 }
-#ul{
+
+#ul {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-   
 
-   
+
+
 }
-#btn2{
+
+#btn2 {
     background-color: blue;
     padding: 5px 10px;
     border: none;
     border-radius: 3px;
     color: white;
 }
-#btn3{
+
+#btn3 {
     background-color: blue;
     padding: 5px 10px;
     border: none;
@@ -75,6 +84,3 @@
     color: white;
     margin: 10px;
 }
-
-
-
